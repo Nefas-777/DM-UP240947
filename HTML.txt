@@ -1,0 +1,73 @@
+1. ¿Qué es HTML y para qué sirve?
+HTML significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto). No es para "programar" lógica, sino para organizar el contenido.
+
+Sirve para decirle al navegador qué elementos componen una página: "¿Esto es un título?", "¿Esto es un párrafo?", "¿Aquí va una imagen?". Es el esqueleto o la estructura de un sitio web.
+
+2. Diferencia entre HTML, CSS y JavaScript
+Imagina que estás construyendo una casa:
+
+HTML (Estructura): Son los ladrillos, las paredes y las vigas. Define dónde va la sala y dónde la cocina.
+
+CSS (Diseño): Es la pintura, el tipo de suelo y la decoración. Define colores, tamaños y posiciones para que la casa se vea bonita.
+
+JavaScript (Comportamiento): Es la instalación eléctrica y la domótica. Permite que al tocar un interruptor se encienda la luz o que la puerta se abra sola.
+
+3. ¿Por qué HTML NO es un lenguaje de programación?
+Un lenguaje de programación (como Python o C++) permite crear lógica: bucles, condicionales (si pasa esto, haz aquello) y funciones matemáticas complejas.
+
+HTML es un lenguaje de marcado. Su única función es "marcar" o etiquetar texto para que el navegador sepa cómo mostrarlo. No puede "pensar" ni realizar cálculos por sí mismo.
+
+4. Estructura base de un archivo HTML
+Todo archivo .html debe tener esta estructura mínima para funcionar correctamente:
+
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la pestaña</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <p>Este es el contenido visible.</p>
+</body>
+</html>
+
+5. Etiquetas: Apertura, Contenido y Cierre
+Una etiqueta es la unidad básica de HTML. Se encierran entre paréntesis angulares < >.
+
+Etiqueta de apertura: <p> (Indica dónde empieza el elemento).
+
+Contenido: El texto o elementos que van dentro.
+
+Etiqueta de cierre: </p> (Lleva una diagonal / e indica dónde termina).
+
+Ejemplo completo: <p> (Apertura) + Hola a todos (Contenido) + </p> (Cierre).
+
+6. Atributos en HTML
+Los atributos proporcionan información adicional sobre un elemento. Siempre van dentro de la etiqueta de apertura.
+
+El atributo class
+Se usa para agrupar varios elementos. Sirve para que, desde el CSS, puedas darle el mismo diseño a muchos elementos a la vez. Varias etiquetas pueden tener la misma clase.
+
+El atributo id
+Es un identificador único. Solo puede haber un elemento en toda la página con ese nombre de ID. Se usa para señalar un elemento específico de forma precisa.
+
+7. Cómo se escribe un atributo (Estructura)
+Un atributo siempre sigue este formato: nombre="valor".
+
+Estructura: <etiqueta atributo="valor"> Contenido </etiqueta>
+
+Ejemplo real con un enlace:
+
+HTML
+
+<a href="https://google.com" target="_blank">Ir a Google</a>
+Etiqueta: <a>
+
+Atributo 1: href (la dirección del enlace).
+
+Atributo 2: target (indica que se abra en una pestaña nueva).
+
+Valor: "https://google.com" y "_blank".
